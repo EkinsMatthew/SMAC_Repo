@@ -1,59 +1,59 @@
 ;
 ; Sid Meier's ALPHA CENTAURI
 ;
-; Alpha Centauri Gruppen-Editor-Text
+; Alpha Centauri Faction Editor Text
 ;
 ; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
 ;
 
 #GROUPTEXT
-Formeller Name:
-Informeller Name:
-Nomen:
+Formal Name:
+Informal Name:
+Noun:
 
 #LEADERTEXT
 Name:
-Geschlecht:
-Adjektiv:
-Titel:
-Beschreibendes Adjektiv Nr. 1:
-Abwertendes Adjektiv Nr. 1:
-Beschreibendes Adjektiv Nr.2:
-Abwertendes Adjektiv Nr. 2:
-Beleidigung:
+Sex:
+Adjective:
+Title:
+Descriptive Adjective #1:
+Pejorative Adjective #1:
+Descriptive Adjective #2:
+Pejorative Adjective #2:
+Insult:
 
 #AI
-Kampf
-Kraft
-Technologie
-Reichtum
-Wachstum
+Fight
+Power
+Technology
+Wealth
+Growth
 
 
 #TEMPLATE
-Gaias Stieftöchter, Die Grünen, Gaianer, F, 2, Deirdre, F, -1, 0, 0, 0, 1,
-  TECH, Ecology, SOCIAL, -MORALE, SOCIAL, -POLICE, SOCIAL, ++EFFIC, SOCIAL, +PLANET, FUNGNUTRIENT, 1
-  Ökonomie, Grün, PLANET
-  Ökonomie, Freie Marktwirtschaft, Null
-  Gaianisch, Gaianisch,
-  Lindly, Scott, Lindlys Ruhe
-  Dame, schöne:schöne:schöne:schönen:schönen:schönen, naturverbundene:naturverbundene:naturverbundene:naturverbundenen:naturverbundenen:naturverbundenen, umweltbewußte:umweltbewußte:umweltbewußte:umweltbewußten:umweltbewußten:umweltbewußten, umweltverrückte:umweltverrückte:umweltverrückte:umweltverrückten:umweltverrückten:umweltverrückten,
-  Naturbesessene/r
-  das ursprüngliche Leben des Planeten bewahren
-  das ursprüngliche Leben des Planeten zu schützen, verstehen und bewahren
-  die gesamte rechtmäßige menschliche Entwicklung dieses Planeten auszuradieren
-  die gesamte rechtmäßige menschliche Entwicklung dieses Planeten auszuradieren
-  alle Bestrebungen des menschlichen Fortschritts in dieser Welt sabotieren
-  nackt durch den Wald zu tanzen
-  nackt durch den Wald zu tanzen
-  umweltvernarrte Slogans zu zitieren
-  umweltvernarrten Slogans, F2
-  Umweltinitiativen, F2
-  heidnischen Rituale, F2
-  Ökosteuer, M1
-  das natürliche Leben des Planeten zu bewahren und katalogisieren
-  meine Umweltpolizei
-  die Ökologiegesetze des Planeten
+Gaia's Stepdaughters, The Green, Gaians, F, 2, Deirdre, F, -1, 0, 0, 1, 1,
+  TECH, Ecology, SOCIAL, -MORALE, SOCIAL, -POLICE, SOCIAL, +EFFIC, FUNGNUTRIENT, 1
+  Environment, Pro-Ecology, PLANET
+  Liberties, Democratic, EFFIC
+  Gaian,
+  Lady, beautiful, tree-crazy, ecologically sensitive, eco-daft,
+  Nature Loony
+  preserve Planet's native life
+  to guard, understand, and preserve Planet's native life
+  stamping out all legitimate human development of this planet
+  stamping out all legitimate human development of this planet
+  cripple any and all efforts toward human progress on this world
+  dancing naked through the trees
+  dancing naked through the trees
+  spouting tree-crazy prattle
+  tree-crazy prattle, M1
+  environmental initiatives, M2
+  pagan rituals, M2
+  ecology tax, M1
+  preserving and cataloguing Planet's native life
+  my Environmental Police
+  the Planetary Ecology Code
 
-# ; Diese Zeile muß am Dateiende stehen.
+
+# ; This line must remain at end of file
 

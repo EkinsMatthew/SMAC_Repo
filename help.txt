@@ -194,6 +194,13 @@ Terraform
 ^
 ^PREQ:    $LINK<$STR1=$NUM0>
 
+#HELPTERRAFORM
+#xs 440
+#caption Terraforming: $STR0
+^
+^TURNS TO COMPLETE: $NUM1 $STR2
+^
+^PREREQUISITE: $LINK<$STR1=$NUM0>
 
 
 
@@ -264,7 +271,7 @@ Two extra $LINK<Talents=37> at this base.
 Increases $LINK<PSYCH=38> output at base by 50% and
 $LINK<ECONOMY=44> at base by 50%.
 Increases $LINK<nutrient=41> output in $LINK<forest=90004> squares.
-Eliminates at least half the $LINK<ecological damage=26> caused by $LINK<terraforming=90008>
+Eliminates at least half the $LINK<ecological damage=26> caused by terraforming
 ($LINK<farms=90000>, $LINK<mines=90002>, $LINK<roads=90005>, etc.)
 
 #; Hybrid Forest
@@ -425,7 +432,7 @@ Counts as a $LINK<Command Center=100027> at every one of your bases.
 
 #; The Weather Paradigm
 #HELPPROJ2
-Increases $LINK<terraforming=90008> speed by 50% for all tasks except
+Increases terraforming speed by 50% for all tasks except
 for $LINK<Remove Fungus=90010>. Your formers may build $LINK<Condensors=90012>
 and $LINK<Boreholes=90014>,
 and may $LINK<raise=90016>/$LINK<lower terrain=90017>, even if you have
@@ -1010,7 +1017,7 @@ Farms cannot be built in $LINK<rocky squares=1>.
 
 #HELPTERRASEA0
 A {kelp farm} increases the $LINK<nutrient production=41> of an ocean square
-by +1. Kelp farms can only be planted on shelf squares (Depth
+by +2. Kelp farms can only be planted on shelf squares (Depth
 less than 1000m).
 
 #;SOIL

@@ -615,5 +615,118 @@ floating nation of 100,000 souls, that in the long run
 one world is of only passing significance. Humanity owns the stars once
 again, and the stars will ever after be its true home.
 
+#INTERLUDE21
+#xs 500
+#caption The Borehole Cluster
+^  "What is it? Report!" You bark the orders with all the patience of
+one who's days have become an endless stream of budgets, battlefield
+analyses, and supply requisitions.
+^  "We've completed our investigation of the Borehole Cluster, $TITLE0."
+^  "Ah, very good!" You've been looking forward to this. "Give me the
+highlights."
+^  The young engineer's eyes are shining as he hands over the datapad.
+"It's an amazing feat of engineering, $TITLE0. A shaft has been drilled
+all the way through the planet's crust, right down to the magma. The
+mineral resources are right there for the taking, and the energy tap
+from the heat could be enough to power our largest turbine plant!"
+^  "Excellent. Have you discovered how they protect against meltdown,
+and how they extract the minerals?"
+^  "It's all in the report, $TITLE0." The young man looks proud, but
+then his face changes. "There is one disturbing thing, $TITLE0."
+^  "Yes?" You're already thinking of how this technology can be
+incorporated into your plans for Planetary domination; "disturbing"
+is not a word you wanted to hear.
+^  "Well, $TITLE0, our dating techniques show it to be only slightly
+newer than the nearby monoliths and artifacts. And the construction
+materials used in the borehole perimeter can't be duplicated."
+^  Your eyes narrow. "Why?"
+^  He gulps. "Well, $TITLE0, the metals used are not native to
+Planet. Their composition includes many elements not found anywhere,
+at least so far, in Planet's crust."
+^  You struggle to maintain your composure in the presence of the
+young engineer, astounded at the implications: The race that left
+behind these monoliths, these artifacts ... they must have come
+from the stars, just as humanity did. Were they defeated by
+Planet's biological defenses? Did they leave? And if they
+left ... might they ever come back?
+
+#INTERLUDE22
+#xs 500
+#caption The Borehole Cluster
+^  "What is it? Report!" You bark the orders with all the patience of one
+who's days have become an endless stream of budgets, battlefield analyses,
+and supply requisitions.
+^  "We've completed our investigation of the Borehole Cluster, $TITLE0."
+^  Something in the voice causes you to stop the frantic shuffling of
+datapads and look up. The young engineer's demeanor is that of one who
+is about to deliver very discomfiting news. 
+^  "Well, spit it out! What's wrong?"
+^  "It's not exactly [wrong], $TITLE0. It's just that ... well, the
+boreholes are similar to the type we've created ourselves: a direct
+tunnel to the magma core of the planet, tapping into a great deal of
+energy with very little entropic loss through the use of induction
+coils and so forth."
+^  "Yes, yes." You're familiar with the theory, and even the
+practice. "What else?"
+^  "Well, $TITLE0, this structure was definitely not created by
+an Earth faction. Our dating techniques show it to be only slightly
+newer than the nearby monoliths and artifacts."
+^  "Interesting." That means that the alien culture that once lived
+on Planet had reached a greater level of technological advancement
+than had previously been confirmed, though it had of course been suspected.
+^  "That's not all, $TITLE0." The young man looks highly uncomfortable.
+Finally he blurts, "It's the construction materials used in the
+borehole perimeter. We can't duplicate them."
+^  Your eyes narrow. "Why?"
+^  He gulps. "Well, $TITLE0, the metals used are not native to
+Planet. Their composition includes many elements not found anywhere,
+at least so far, in Planet's crust."
+^  You goggle at the young engineer, astounded at the implications:
+The race that left behind these monoliths, these artifacts ... they
+must have come from the stars, just as humanity did. Were they
+defeated by Planet's biological defenses? Did they leave? And if
+they left ... might they ever come back?
+
+#INTERLUDE23
+#xs 500
+#caption The Manifold Nexus
+^  The ‘speeder trip to the alien building was alternately dry, dusty, wet, and
+nerve-wracking-and an awfully long way to come to view a long-dead
+temple-but your assistant was quite adamant that you view the ruins for
+yourself.
+^  At least the building is spectacular and interesting-looking; formed from
+rock and metal, it looks quite unlike any other alien structure you’ve found
+so far, and quite unlike any human structure as well. The most prominent
+features are the rippled carvings covering the outer walls, especially around
+the entranceway.
+^ Inside, the motif continues: the walls are covered with rippled carvings of
+various depths and patterns. Some portions of the wall are bare; most are
+decorated.
+^ “A temple?” You say aloud. “Votive carvings? They almost look like
+depictions of sound or radio waves.”
+^  Your assistant gives you an admiring look.  “Very close, $TITLE0. They’re
+not [depictions] of sound waves, though--they [are] sound waves. The
+carvings distort the localized air patterns-the sounds-in specific ways. Once
+we realized what they were, we were able to do some crude translation.” 
+^  "Fascinating…” You run your fingers over a rough stone surface, trying to
+imagine what it might ‘mean’. “And you say you were able to translate?"
+^  "Rough computer decryption, $TITLE0. Very rough. For example, that far wall there
+with the concentric rings… we believe that this is a command center of some kind. 
+The grooves around it cause most of the sound in the room to be focussed on that area, 
+giving it dominance”
+^ "And you’re assuming this is a language rather than a simple functionality."
+^  "It’s essentially the same thing, $TITLE0. Language is simply a way to convey
+abstract thoughts and ideas in a concrete fashion. Here, the function is to concentrate
+information from…." He trails off.
+^ "From where?"
+^  “From … elsewhere, $TITLE0. We’ve discovered energy paths coming from the ground,
+the sky-even nearby monoliths. Whatever this building was, it served as a central
+focussing or gathering point, or perhaps as a command center.”
+^ “And can we trace back these pathways to discover their source?”
+^ “Not exactly, $TITLE0. Some of the pathways come from Planet itself-specifically
+from large fungal masses. The emanations have given us a greater understanding of the
+Planetary fungal cycle, which is a nice side-benefit. But some pathways appear to come 
+from deep space, $TITLE0. We have no idea where. Or why.”
+
 # ; This line must remain at end of file.
 

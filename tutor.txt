@@ -326,9 +326,9 @@ The {Information Box} shows the name of the base.
 
 #TOUR1ECO
 #xs 300
-For convenience, the date and your current {Energy Reserves} shown 
-here. If your base has grown large enough to pose a danger to the 
-local environment, the {Ecological Damage} indicator shows the 
+For convenience, the date and your current {Energy Reserves} shown
+here. If your base has grown large enough to pose a danger to the
+local environment, the {Ecological Damage} indicator shows the
 percentage chance of intervention by Planet.
 
 #TOUR1POP
@@ -806,7 +806,7 @@ came to the screen, and exits.
 #SOCTOURRESET
 #xs 400
 The {Reset Button} restores the society settings you had before you
-came the the screen, but does not exit the screen.
+came to the screen, but does not exit the screen.
 
 #SOCTOUROK
 #xs 400

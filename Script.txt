@@ -550,6 +550,7 @@ Show base grid.
 Show base names.
 Show production with base names.
 Show flattened terrain.
+Show go-to path when unit active.
 
 #BASEWARNINGS
 #xs 440
@@ -2411,6 +2412,7 @@ Shall I put $HIMHER3 through?
 Yes, switch to main viewscreen.
 No, close the channel.
 No, but I will call $HIMHER3 back later.
+No, and do not accept further message from $TITLE0 $NAME1.
 Display faction leader profile.
 
 #URGENTCOMM
@@ -2418,7 +2420,6 @@ Display faction leader profile.
 #caption Communications Officer
 I have an urgent message from $TITLE0 $NAME1 of the $FACTION2.
 Switching to main viewscreen.
-
 
 #INTRONEW0
 #xs 440
@@ -3396,7 +3397,7 @@ to continue, $TITLE0."
 #caption $CAPTION7
 "Is that a threat, $TITLE0 $NAME1? I suggest that
 you pronounce Vendetta and have done with it, for
-I am scarely intimidated."
+I am scarcely intimidated."
 
 ## Translator's note:
 ## The two entries below (REALLYBROKE, DROIDS) are based on the
@@ -5156,7 +5157,7 @@ this planet can achieve prosperity."
 #caption $CAPTION7
 "$TITLE0 $NAME1, I cannot allow your research programs to continue
 any longer unchecked. You may try to hide it, but your so-called
-pursuit of 'knowledge' is nothing but a convert weapons research
+pursuit of 'knowledge' is nothing but a covert weapons research
 program. I shall therefore neutralize your faction and place these
 technologies in responsible hands."
 
@@ -6373,8 +6374,7 @@ Two players cannot share control of the same faction.
 #SERVERLOST
 #xs 300
 #wave 12
-SERVER LOST! (Player "$NAME0" dropped without clean hangup).
-To recover, save the game and restart.
+SERVER LOST! Control being transferred to another player.
 
 #WAITINGFORSESSION
 #xs 300
@@ -7148,8 +7148,7 @@ Ground units may not bombard from the sea.
 #xs 440
 #caption Chief Engineer
 All of our prototypes have been modified to use the
-new $REACTOR0. For a price, our existing vehicles can be upgraded to
-the new models--use the Upgrade action (Ctrl+Shift+U).
+new $REACTOR0.
 
 #UNLOADNO
 #xs 440
@@ -7472,8 +7471,8 @@ $TITLE0 $NAME1."
 #COUNCILNEEDALL
 #xs 440
 #caption Protocol Director
-"You cannot summon the Planetary Council until you have comm frequencies
-for all active players."
+You cannot summon the Planetary Council until you have comm frequencies
+for all active players.
 
 #COUNCILISSUES
 #xs 440
@@ -8649,11 +8648,6 @@ disbanded.
 Never mind.
 Proceed with redesign.
 
-#SWITCHING
-#xs 440
-#caption Scenario Editor
-Switching control to "$FACTION0" faction.
-
 #MAPFLAT
 #xs 320
 #caption Scenario Editor
@@ -8815,6 +8809,7 @@ Strategy: Lots of terraformers
 Strategy: Lots of sea bases
 Strategy: Lots of probe teams
 Strategy: Lots of missiles
+Strategy: Lots of artillery
 
 #WITHSUNWAR
 #xs 320
@@ -9810,6 +9805,302 @@ splash screen when you exit the game.
 ^
 To begin the game please select either "Quick Start" or "Start Game"
 from the menu which follows.
+
+#CUSTOMMAP
+#xs 440
+#x -5
+#y -5
+#caption Custom Map Size
+
+#VERYLARGEMAP
+#caption Warning!
+#xs 440
+#x -5
+#y -5
+Very large maps may reduce performance and affect game balance.
+^
+Remember that map area increases geometrically as horizontal and
+vertical sizes increase. Maps larger than 64x128 are not really
+recommended; maps larger than 256x256 may cause the game
+to "hang" indefinitely. Enormous maps which also contain huge world
+spanning continents are particularly problematic for performance,
+because of the variations created for the pathfinding code.
+
+Continue anyway.
+Never mind.
+
+#CANGIVE1
+#xs 440
+#caption Operations Director
+Release $UNITTYPE1 unit into wild?
+
+Never mind.
+Confirmed!
+
+#CANGIVE2
+#xs 440
+#caption Operations Director
+#itemlist
+Never mind.
+Transfer control of $UNITTYPE1 unit to the $FACTION0.
+Release $UNITTYPE1 unit into wild.
+
+#GAVEWILD
+#xs 440
+#caption Operations Director
+Unit released to wild.
+
+#NERVESTAPLEFAIL
+#xs 440
+#caption Psych Chaplain
+Our nerve stapling appears to have had no effect! Perhaps these
+drones have built up an immunity!
+
+#VERIFYPASSWORD
+#xs 440
+#caption PASSWORD
+Please Verify New Password
+
+Password:
+
+#ENTERPASSWORD
+#xs 440
+#caption PASSWORD
+Please enter password for $TITLE1 $NAME2 of the $FACTION3
+
+Password:
+
+#BADPASSWORD
+#xs 440
+#caption PASSWORD
+That is not the correct password.
+
+#HOTSEAT
+#xs 420
+#caption HOTSEAT/EMAIL GAME
+#itemlist
+#x -5
+#y -5
+New Multiplayer Game
+Multiplayer Scenario
+Load Multiplayer Game
+
+#HOTSEATADD0
+#xs 420
+#caption HOTSEAT/EMAIL GAME
+Human-controlled factions currently in game:
+^
+
+#HOTSEATADD1
+#xs 420
+#caption HOTSEAT/EMAIL GAME
+^
+Do you wish to add another human player to this game?
+
+No
+Yes
+
+#HOTSEATADD2
+#xs 420
+#caption HOTSEAT/EMAIL GAME
+^
+Do you wish to add or subtract human players?
+
+No, please proceed.
+Add a human player.
+Subtract a human player.
+
+#MULTISTRING
+^$TITLE0 $NAME1 of the $FACTION2
+
+#FACTIONTAKEN
+#xs 420
+#caption HOTSEAT/EMAIL GAME
+Sorry, that faction has already been taken.
+
+#COMMCOMPLETE
+#xs 440
+#caption Protocol
+$TITLE0 $NAME1 of the $FACTION2 has accepted our diplomatic offers.
+
+#WONLOST
+#xs 440
+#caption Combat Report
+We won $NUM0 $<#0:battle:battles> this turn and lost $NUM1
+$<#1:battle.:battles.>
+
+#NOHOTSEAT
+#xs 440
+#caption HOTSEAT/EMAIL
+That feature is not supported in hotseat/email games.
+
+#HOTTAMPER
+#xs 440
+#caption HOTSEAT/EMAIL
+^^SAVE/LOAD IRREGULARITY
+^^
+$TITLE0 $NAME1 of the $FACTION2 may have performed multiple save/loads.
+
+#HOTTAMPER2
+#xs 440
+#caption HOTSEAT/EMAIL
+^^SAVE/LOAD IRREGULARITY
+^^
+$TITLE0 $NAME1 of the $FACTION2 may have performed as
+many as $NUM0 extra $<#0:save/load.:save/loads.>
+
+#HOTNOTAMPER
+#xs 440
+#caption HOTSEAT/EMAIL
+You have already played from this saved game; if you proceed a
+notification of possible tampering will be given to the other
+players.
+
+#COUNCILHOT
+#xs 440
+#caption HOTSEAT/EMAIL
+A proposal is already before the council; the council cannot be
+called again until all players have had a chance to vote on the
+current proposal.
+
+#COUNCILHOTPASS
+#xs 440
+#caption HOTSEAT/EMAIL
+^^
+^^Council Resolution
+^^
+^^$PROPOSAL0
+^^
+^^MEASURE PASSES
+^^
+
+#COUNCILHOTFAIL
+#xs 440
+#caption HOTSEAT/EMAIL
+^^
+^^Council Resolution
+^^
+^^$PROPOSAL0
+^^
+^^MEASURE FAILS
+^^
+
+#COUNCILHOTVETO
+#xs 440
+#caption HOTSEAT/EMAIL
+^^
+^^Council Resolution
+^^
+^^$PROPOSAL0
+^^
+^^MEASURE VETOED
+^^
+
+#COUNCILHOTGOVWIN
+#xs 440
+#caption HOTSEAT/EMAIL
+^^
+^^Planetary Governor Elected
+^^
+^^$TITLE1 $NAME2 of the $FACTION3
+^^
+
+#COUNCILHOTGOVLOSE
+#xs 440
+#caption HOTSEAT/EMAIL
+^^
+^^Planetary Governor Retained
+^^
+^^$TITLE1 $NAME2 of the $FACTION3
+^^
+
+#COUNCILHOTGOVNONE
+#xs 440
+#caption HOTSEAT/EMAIL
+^^
+^^Planetary Governor
+^^
+^^Election Deadlocked: No Governor Appointed
+^^
+
+#SWITCHING
+#xs 440
+#caption HOTSEAT/EMAIL MULTIPLAYER
+#button SAVE AND EXIT
+^^
+^^NEXT PLAYER TURN
+^^
+^^$TITLE1 $NAME2 of the $FACTION3
+^^
+^^Mission Year $NUM0
+^^
+
+Set Password or Press ENTER:
+
+#SWITCHING2
+#xs 440
+#caption HOTSEAT/EMAIL MULTIPLAYER
+#button SAVE AND EXIT
+^^
+^^NEXT PLAYER TURN
+^^
+^^$TITLE1 $NAME2 of the $FACTION3
+^^
+^^Mission Year $NUM0
+^^
+
+Enter Password:
+
+#PASSWORDSNOTVALIDATED
+#xs 440
+#caption ONE OR MORE PASSWORDS NOT VALIDATED
+Game cannot be launched until all non-empty passwords are
+validated.
+
+#PASSWORDOK
+#xs 340
+#caption PASSWORD NOT REQUIRED
+Your faction for this game is already unlocked.
+
+#PASSWORDEDLOADATTEMPT
+#xs 340
+#caption PASSWORD PROTECTED MULTIPLAYER SAVE
+You cannot load a password-protected multiplayer game as
+a single-player game.
+
+#DIFFERENTPASSWORDS
+#xs 440
+#caption PASSWORD NOT VERIFIED
+Password was not verified. Please try again.
+
+#ENTERPASSWORDNEW
+#xs 440
+#caption PASSWORD
+Please Enter New Password (Leave blank for none). This
+will be your faction password for this new game.
+
+Password:
+
+#SERVERLOSTINSETUP
+#xs 300
+#wave 12
+SERVER LOST DURING SETUP! Game canceled.
+
+#ENTERPASSWORDFACTION
+#xs 440
+#caption PASSWORD
+Please enter password for the $FACTION0
+
+Password:
+
+#OBLITOK
+#xs 440
+#caption Operations Director
+Do you really wish to obliterate $BASENAME0?
+
+No, let them live.
+Yes, wipe $BASENAME0 from the face of Planet!
+
 
 # ; This line must remain at end of file
 

@@ -132,6 +132,5 @@ sign a Treaty of Friendship and worship together in peace."
 "No. Your fanaticism makes me shiver, $NAME3."
 
 
-
 # ; This line must remain at end of file
 

@@ -41,21 +41,19 @@ Academy Park
 Lab Three
 Library of Planet
 Planetary Archives
-Razvitia Progress Base
+Razvitia-Progress Base
 Cosmograd
 Budushii Dvor
 Tsiolkovsky Institute
 Mendelev College
 Nauk Science Center
-Zarya Sunrise
-Nadezjda Hope
+Zarya-Sunrise
+Nadezjda-Hope
 Academgorodok
 Koppernigk Observatory
-Svobodny Free Base
+Svobodny-Free Base
 Zvedny Gorodok
 Baikonur
-Bibliotyek Science
-Bibliotyek Letters
 Climactic Research
 Monitoring Station
 Buran Prospect
@@ -66,9 +64,10 @@ Lomonosov Park
 Korolev Center
 Gagarin Memorial
 New Arzamas
-Otkrietia Discovery
-Zoloto Gold
-Edinstvo Unity
+Otkrietia-Discovery
+Zoloto-Gold
+Edinstvo-Unity
+#END
 
 #WATERBASES
 The Marine Institute
@@ -122,7 +121,6 @@ a Treaty of Friendship and leave us to study in peace?"
 
 "Of course. We must certainly strive to increase our knowledge."
 "No. I don't trust your unethical approach to research, $NAME3."
-
 
 
 # ; This line must remain at end of file

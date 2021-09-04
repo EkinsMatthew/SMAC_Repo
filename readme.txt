@@ -1,6 +1,163 @@
 SID MEIER'S ALPHA CENTAURI
-README.TXT 1.0I
-1/4/98
+README.TXT 4.0
+4/16/99
+
+CHANGES IN ALPHA CENTAURI VERSION 4.0
+
+-----------------------------------------------
+
+ADDITIONS\ENHANCEMENTS
+· Check out the new landmark: the Manifold Nexus, a ruined remnant of an extensive alien complex with a mysterious relationship to the Planet itself. The faction possessing the Nexus inside its territory enjoys an improved relationship with Planet (+1 on the Social Engineering scale).  
+· You can now see AI player's social engineering settings.
+· Wheelmouse support implemented for most listboxes and when picking production choices.
+
+FIXES
+· Singularity reactors now have 40 HP, so they are balanced in psi combat.
+· The AI no longer can use missiles beyond their designated range.
+· You can no longer use long-range fire via right-click when out of range of the target. 
+· Automated formers no longer build bunkers prior to having the required technology.
+· The Self-Aware Colony now correctly halves maintenance.
+· The Space Elevator now correctly doubles mineral production when building satellites.
+· Units should no longer switch their home bases automatically.
+· The game no longer locks up when all players choose factions in a MP scenario that aren't present and END OF TURN is selected.
+· Airdropped transports no longer leave cargo behind.
+· You can no longer switch the AI's governor settings from the F4 screen.
+· If you zoom to a base from the F4 Base Operations screen, when you return to the F4 screen you can now use the PgUp and PgDn hotkeys to scroll the window.
+· Loading a map in the scenario editor after generating one now updates the minimap.
+
+CHANGES IN ALPHA CENTAURI VERSION 3.0
+
+-----------------------------------------------
+
+The v3.0 update to Sid Meier's Alpha Centauri includes several additions and enhancements, largely in response to customer feedback, as well as a more small fixes. A complete list of v3.0 changes is included below.
+
+ADDITIONS\ENHANCEMENTS
+· Added a new landmark, the Borehole Cluster.
+· Overall game performance improved due to continuing code optimization.
+· Added your total Council votes to the bottom of the Comm menu.
+· Adjusted armor costs for air units.
+· Adjusted global warming algorithm to make "ecological death spiral" less likely. Added ALPHA.TXT controls for global warming.
+· ALPHA.TXT controls for maximum damage inflicted by artillery.
+· One of the cycling info displays now shows # of council votes.
+· New council proposals shown on datalinks for technologies which enable them.
+· Ctrl+Shift+W toggles fog-of-war preference.
+· Alpha Centauri.INI option to force preferences not to be reset whenever players start a new game at lowest difficulty level. "DontResetBeginnerPrefs=1"
+· A few new ALPHA.TXT options related to time limits & atrocities.
+· You can set "DisableOpeningMovie=1" to the alpha centauri.ini file to only disable the opening movie.
+· Added a right-click menu to base production screen so you can obsolete units, etc.
+· AI: The autodesigner no longer puts loads of armor on sea terraformers & sea colony pods.
+· AI: The Autodesigner will now put Deep Radar on artillery units.
+· AI: Governors won't build Genejack Factories or Punishment Spheres.
+· AI: Tweaked diplomatic AI to better understand certain situations and tricks. Among other things, AI will be more aware of situations where one of the parties has a significant advantage in weapons technology.
+· AI: Tweaked military AI to build somewhat less artillery.
+· AI: Improved AI understanding of global warming & solar shades.
+
+FIXES
+· Planetary Governor now have packet sniffer access to all factions.
+· Dead factions no longer prevent a Planetary Governor veto. 
+·  "O" w/ supply crawlers now let you add to production.
+· The menu option for Automate Mag-Tubes now un-greys.
+· Square detail readout is now always correct.
+· Rovers can no longer retreat from combat onto a unity pod.
+· You no longer get "unable to allocate draw buffer" error message when dragging a technician onto the map in the base screen.
+· You can no longer start building two boreholes next to each other.
+· You can no longer enter 0< numbers in the custom map size.
+· Transcendent Thought breakthroughs no longer continuously loop.
+· Scroll bars for the "Give City" menu.
+· You now can't blame eliminated factions with probe team actions.
+· The Current Production at a base is now the top slot of the queue.
+· Randomizing a faction's social agenda now changes the faction profile information.
+· Single click on radio buttons preference now works
+· Units no longer can teleport off north edge of screen.
+· Using certain missiles no longer cause periodic hangs.
+· Planet busters now destroy sensor arrays.
+· New methods of sorting the F4 base screen based on resources, population, etc.
+· You can now frame other factions for your own probe team actions.
+· Isle of the Deep can no longer destroy a pressure dome in a sea base.
+· Specialty cursors (go to, patrol, etc) now have correct hot spots.
+· Accelerated start no longer causes some bases to be partially drawn on 1st turn.
+· A foil is no longer visible during the landing sequence if the player starts with one.
+· You can no longer regenerate unity pods by keeping a air unit overhead.
+· You can no longer upgrade Locusts of Chiron to Psi Choppers.
+· Moved "Pressure Dome" to top of base facilities display for easy indentification. 
+· Multiple orbital improvements can now be inserted into the build queue.
+· CTRL-F4 and CTRL-SHIFT-F4 now work (show credits and show version)
+· Cornering the global energy market now displays the correct year.
+· The AI no longer can add special abilities missiles.
+· The AI no longer can add AAA to transports.
+· Air units now will always execute a goto command. 
+· Removed the message telling you to use "Ctrl+Shift+U" to upgrade units.
+· Sea units will no longer be transferred to land bases.
+· Mixing "police units" with "non-police" units no longer gives extra police protection.
+· Planet busters used by the computer player are now restricted by range.
+· Auto roads and mag-tubes now work better.
+· Version checking for multiplayer games that an NT machine hosts now works correctly.
+· Planes relocated by end of Pact no longer run out of fuel for no reason on the next turn.
+· The first time you open the save window, clicking on the folder icon for the up directory no longer saves the game.
+
+CHANGES IN ALPHA CENTAURI VERSION 2.0
+
+-----------------------------------------------
+
+The v2.0 Update to Sid Meier's Alpha Centauri includes several new features to enhance the Alpha Centauri gameplay experience as well as a host of small fixes. Most notably, v2.0 includes Hotseat and Play-by-email multiplayer modes.  A complete list of v2.0 changes is included below.
+
+ADDITIONS
+*       HOTSEAT multiplayer mode is now available! 
+*       Play-by-email multiplayer mode is now available!
+*	To start a hotseat game, select Multiplayer from the main menu and then Hotseat/PBEM. After setting up Planet, select a faction for each of the human players. Each player has an opportunity to select a password on their first turn to provide a level of privacy. Leave the field blank to bypass this feature. When a player ends their turn, a prompt will appear for the next player. If playing Hotseat, the next player should take over here. If playing PBEM, select Save and Exit. The game automatically exits, at which point you should email the resulting save game to the next player (as indicated on the last on-screen prompt). Most features of the game are identical to non-simultaneous multiplayer games. A notable difference however is Diplomacy, which can now takes place over several turns. After contacting another player, make your selections and hit End Transmission. When the other player's turn begins, the diplomacy window will appear with your proposal. Negotiations can take place over any number of turns.
+*       You can now see the destination of a unit without selecting it. This option can be toggled under "Map" preferences.
+*       You can now disable probe team "steal technology in the RULES section of ALPHA.TXT.
+*       You can now release mind worms into wild using the "Turn Over Unit Control" option on the Action Menu.
+*       You can now customize the map size when generating a random planet.
+*       Probe teams are now "unflagged", meaning you cannot easily tell who controls the team.
+*       Atrocities have been rebalanced to avoid abuse: (a) 12+ atrocities (depends on difficulty level) will cause all factions to declare vendetta (b) Nerve stapling becomes increasingly ineffective at particular bases the more you use it.
+*       The Hive now has the "Immunity, EFFIC" ability; Hive never receives negative EFFICIENCY penalties.
+*	Password security for multiplayer games. 
+*	Hardware 3D positional and EAX support added - Note: this can be disabled in alpha centauri.ini by entering  ds3d=0 or eax=0. This also provides overall better performance and memory usage.
+
+ENHANCEMENTS
+*       You can now set waypoints for patrols using the spacebar. Press "p" key as usual to start patrol, then click-and-drag mouse to first waypoint; while still holding mouse button, press SPACE to set waypoint; you can then drag line to next point, etc. When you reach final destination, release mouse button.
+*       Datalinks now show cost/preq of Abilities and Terraforming
+*       Combat report text is now larger in 1024x768 resolution
+*       "People" icons are now smaller for cursor in base screen "drag and drop"
+*       Design Workshop: dark blue letters on dark background are now more legible
+*       You can no longer name/rename landmarks near other people's territory.
+*       Pact Brothers no longer offer map in tech trade (already gives map for free)
+*       The world map now updates as new areas are explored, as opposed to waiting until the end of a turn.
+*	Up to a 40% speed increase in TCP/IP performance.
+*	Improved Caviar unit display performance.
+*	Autoexploring AI with natives improved.
+*	You can now automatically build roads to any square.
+* 	voice over data link now louder on receiving end.
+
+FIXES
+*       Map now correctly displays solar/mine/etc details at "standard zoom out" level.
+*       Air Units are no longer influenced by travel rate of fungus and so forth.
+*       Dragging air unit move: distance is now shown correctly
+*       F4 screen "turns to go" now accounts for prototype cost
+*       Clicking "end of turn" when a unit is active (but has already moved) no longer says, "all units have moved".
+*       New unit changes are now correctly displayed when you go to Change Unit, then from there to unit design (where you Obsolete/Design/whatever) and then come back the change menu again.
+*       When "continue with current/change to new/add to beginning of queue" warning is displayed after changing build command and if you pick "add to queue" it now adds the selected unit correctly (instead of always adding a Colony Pod).
+*       Typo corrected when you hit the "Reset" button in Social Engineering
+*       Squelch mode now prevents commlink requests as well as chats.
+*	The host being killed in MP no longer prevents the remaining players from continuing.
+*	Economic victory now functions correctly in MP.
+*	Submitted AI factions no longer send probe teams against their captor.
+*	Entering Social Engineering on first turn no longer strands the player.
+*	Units magically teleporting to the north pole.
+*	AI doesn't offer a human controlled faction's comm frequency to other human players in MP.
+*	"15 secs to end of turn" doesn't print numerous times in MP.
+*	The energy readout in the info window isn't double it's actual value in some instances.
+*	On Citizen and Specialist Level you now get free minerals when starting a new base.
+*	Time bonuses now charged to the correct player.
+*	Hitting the END key in the Production Picker now adjusts the scroll bar.
+*	 Save MP games now preserves the Simultaneous Moves option.
+*	The datalinks now displays the proper amount of nutrients produced by kelp farms.
+*	Formers in Multiplayer can no longer be used to produce terrain enhancements in one turn.
+*	Upgrading a unit under certain circumstances no longer creates free prototypes.
+*	Attacking a mindworm on a Unity pod now explores that pod.
+*	F4 screen's "turns to go" now accounts for prototype cost.
+*	Drop-pod messages no longer broadcast to all players in MP.
 
 SINGLE PLAYER
 
@@ -15,7 +172,7 @@ If you are experiencing performance problems, try some of the following tips:
 *  Enable the following preferences: Move Friendly Pieces Quickly, Fast Battle Resolution, Move Units with orders quickly, Don't Center On Units With Orders
 *  Increase the amount of free hard drive space on the C: drive.
 *  Increase the amount of RAM in your system.
- 11:55 AM 1/7/99
+
 NEW FEATURES
 
 * Right click on a Pact Brother from commlink menu to end a pact.
@@ -28,7 +185,7 @@ COMPLETE INSTALL
 
 This install copies the entire contents of the CD-Rom to the hard drive. It requires 360 megabytes of hard drive space.
 
-GAMMA CORRECTION
+GAMMA CORRECTION / "IF THE GRAPHICS SEEM TOO DARK"
 
 We've added a Gamma Correction feature to allow the customer to adjust the brightness of the palette without adjusting their monitor. It is accessible from any of the preference menus. The default value is 1.0.
 
@@ -63,6 +220,9 @@ This forces the screen resolution to either of these two sizes.
 8BitMovieSound=1
 This forces the sound quality to 8-bit from the original 16-bit. If your sound card has DirectX compatibility issues, this may improve movie performance.
 
+ForceOldVoxelAlgorithm=1
+If the game crashes intermittently, try adding this line.
+
 TROUBLESHOOTING - If your computer has problems playing the game (crashes, returning to desktop, etc.), please try the following:
 
 1. Reinstall DirectX 6. Run the DXSetup.exe program that is available on the CD-ROM in the \DirectX folder.
@@ -86,11 +246,6 @@ New Features:
 NON-SIMULTANEOUS MULTIPLAYER:
 
 A feature we added is non-simultaneous movement in multiplayer games. Benefits of this mode include significantly less packet transmission (to improve performance), the ability to execute diplomacy without your turn clock running out, and the luxury to fine tune your bases while other players complete their moves.  Disable the Simultaneous Move option on the Multiplayer Setup screen to use this feature.  The game plays essentially the same as the simultaneous move game, except when other players are making their moves, you maintain control. Except for actually moving units, you can access any base, any report screen, initiate or participate in diplomacy, and many other actions.
-
-ALPHAHQ.NET:
-
-To facilitate internet (TCP/IP) games, we have provided a web-based match making service called AlphaHQ.net. Point your web browser to www.alphahq.net to join. Once there follow the on screen directions to begin playing as quickly as possible.
-** MAKE SURE YOU DO NOT HAVE ALPHA CENTAURI RUNNING BEFORE JOINING ALPHAHQ.NET GAMES. ** 
 
 VOICE OVER DATA TROUBLESHOOTING:
 

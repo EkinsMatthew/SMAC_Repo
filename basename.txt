@@ -38,9 +38,9 @@ Rho Sector
 Sigma Sector
 Tau Sector
 Upsilon Sector
-Psi Sector
-Chi Sector
 Phi Sector
+Chi Sector
+Psi Sector
 Omega Sector
 #END
 

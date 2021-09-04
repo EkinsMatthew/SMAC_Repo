@@ -7,7 +7,7 @@
 ;
 
 #LABELS
-1089
+1113
 Mission Year
 Funds
 Moving
@@ -1087,15 +1087,39 @@ Eliminated Factions
 Surrendered Factions
 Map Preferences
 Gamma Correction
-Restore Defaults   
-Main Off           
-Main On            
-Voice Off          
-Voice On           
-SFX Off            
-SFX On             
-Music Off          
-Music On           
-More               
+Restore Defaults
+Main Off
+Main On
+Voice Off
+Voice On
+SFX Off
+SFX On
+Music Off
+Music On
+More
+Custom Size
+Horizontal
+Vertical
+(may vary with terrain)
+Hotseat
+Enter Password
+Password
+Next Player
+Current Player
+Hotseat/Play-by-Email
+Select unit
+Zoom to message
+Erase message
+Zoom and Erase
+Passwords Unsatisfied
+Cancel all obsolete
+Add to queue
+Set production
+ENERGY GRID
+Alien Air
+Alien Defense
+Resonance Attack
+Resonance Defense
+Pulse Defense
 
 # ; This line must remain at end of file
