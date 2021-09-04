@@ -1,0 +1,91 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for MP--4 PlayerA scenario.
+
+#INTRO
+#xs 320
+#caption Huckle Buckle Worm Stalk
+^^
+Planet contains many more alien artifacts than previously thought.
+These strange relics are scattered throughout the main central
+continent and the surrounding oceans, and hold invaluable secrets 
+and powers. 
+^
+$TITLE1 $NAME2 of the $FACTION3, you must ensure that your
+faction obtains its fair share of these artifacts. Your goal is to 
+search out these artifacts and escort them safely back to your Headquarters, 
+designated as ARTIFACT HOLDING AREA. 
+You have 45 years to clear the area of artifacts. Any faction in possession of 7 artifacts 
+in the ARTIFACT HOLDING AREA is considered to have a commanding lead, and automatically wins!
+^^
+
+#OBJECTIVES
+#xs 440
+#caption Huckle Buckle Worm Stalk
+^^
+Objective: Find as many alien artifacts as possible 
+and escort them to your Headquarters base (designated ARTIFACT HOLDING AREA) by M.Y. $NUM4
+^
+^^Alien artifacts currently cached at your ARTIFACT HOLDING AREA: $NUM2
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS!
+^
+$TITLE0 $NAME1 of the $FACTION2: You have cached the most alien artifacts
+at your HQ, ensuring the technological edge of the $FACTION2 in the years to come.
+^
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+^^
+$TITLE0 $NAME1 of the $FACTION2 has cached the most alien artifacts,
+ensuring the technological edge of the $FACTION2 in the years to come.
+^^
+^
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+$TITLE0 $NAME1 of the $FACTION2 has cached seven alien artifacts,
+ensuring the technological edge of the $FACTION2 in the years to come.
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^
+$TITLE0 $NAME1 of the $FACTION2: You have cached seven alien artifacts
+at your HQ, ensuring the technological edge of the $FACTION2 in the years to come.
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file

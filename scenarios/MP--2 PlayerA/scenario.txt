@@ -1,0 +1,83 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+;Scenario-specific text for MP--2 PlayerA scenario.
+
+#INTRO
+#xs 320
+#caption Dogpile on the Hive
+^^
+M.Y.: $DATE4. The remnants of the once-proud Hive empire occupy a strong
+central location, bordered by the weaker Believers to the north and the
+Spartans to the south. $TITLE1 $NAME2 of the $FACTION3, your goal is to
+control as many of the central bases as possible by the year M.Y. $NUM3. These
+bases initially belong to the Hive, and are marked as OBJECTIVE bases.
+^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption Dogpile on the Hive
+^^
+^^Objectives: Control as many OBJECTIVE bases as possible by M.Y. $NUM3
+^^
+^^
+^^OBJECTIVE bases currently under your control: $NUM2
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS!
+^^
+$TITLE0 $NAME1 of the $FACTION2, you control the majority of OBJECTIVE bases.
+The remnants of the Hive empire are yours!
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2 controls the majority of OBJECTIVE bases.
+You have FAILED in your quest to dominate the remnants of the Hive empire.
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption DEFEAT!
+^^
+$TITLE0 $NAME1 of the $FACTION2 controls ALL the OBJECTIVE bases.
+You have FAILED in your quest to dominate the remnants of the Hive empire.
+^
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS!
+^
+$TITLE0 $NAME1 of the $FACTION2, you control ALL the OBJECTIVE bases.
+The remnants of the Hive empire are yours!
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file

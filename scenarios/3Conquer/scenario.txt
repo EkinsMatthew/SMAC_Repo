@@ -1,0 +1,100 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; CONQUER custom scenario file
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; This file can be copied into the same directory as a scenario
+; file and customized for that scenario.
+;
+; Note that all of the strings and numbers in #INTRO and #OBJECTIVES
+; can be used in either. #INTRO is shown at the beginning of the
+; scenario; #OBJECTIVES is shown when "review objectives" is picked
+; from the menu.
+;
+
+#INTRO
+#xs 320
+#caption Gaian Conquest!
+^^
+$TITLE1 $NAME2 of the $FACTION3: Your growing faction has come into 
+conflict with the bothersome Gaian faction, which lies to the north. 
+You have but one objective: seek out both Gaian bases and conquer them! 
+^
+
+#OBJECTIVES
+#xs 440
+#caption Gaian Conquest!
+^
+You have but one objective: seek out both Gaian bases to the north 
+and conquer them!
+^
+^Gaian bases conquered so far: $NUM2
+^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^CONGRATULATIONS!
+^
+^$TITLE0 $NAME1 of the $FACTION2
+^
+You have successfully wiped out the Gaian faction! You have 
+demonstrated your ability to lead a faction to victory--now 
+try playing a full game and see how well you perform...  
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $NUM0
+^^
+
+#; This line must remain at end of file

@@ -1,0 +1,91 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for MP--7 PlayerA scenario.
+;
+
+#INTRO
+#xs 320
+#caption This Wheel's On Fire
+^^
+$TITLE1 $NAME2 of the $FACTION3: All seven leaders survived Planetfall
+and have expanded tentatively past their initial landing site. You have
+heard rumors of a central continent rich in resources and arable land, 
+and are ready to begin the expansion necessay to cement your dominance.
+Control the most territory by M.Y. 2250 to establish yourself as the 
+dominant faction on Planet.
+^
+^^Start date: M.Y. $DATE4
+^^End date: M.Y. 2250
+^^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption This Wheel's On Fire
+^^
+^^Objective: Control as much territory as possible by M.Y. 2250.
+^
+^^Current amount of land held: $NUM2 squares
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS, $TITLE0 $NAME1 of the $FACTION2! Your faction controls
+the largest amount of territory, sealing your dominance over the other
+factions! 
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2 now controls the largest amount of 
+territory. Your faction has been relegated to second-class status as 
+the next era dawns...
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+
+#; This line must remain at end of file

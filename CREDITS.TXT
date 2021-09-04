@@ -1,0 +1,352 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Credits
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#CREDITS
+
+
+CREATED BY
+Brian Reynolds
+
+
+WITH
+Sid Meier
+Timothy Train
+Douglas Kaufman
+Bing Gordon
+
+
+AND
+Members of FIRAXIS Games
+
+
+EXECUTIVE PRODUCER
+Jeffery L. Briggs
+
+
+PRODUCER
+Timothy Train
+
+
+SYSTEM AND INTERFACE PROGRAMMING
+Jason Coleman
+
+
+SOUND ENGINEERING AND PROGRAMMING
+David Evans
+
+
+ADDITIONAL PROGRAMMING
+Chris Pine
+Jeff Morris
+
+
+ART DIRECTOR
+Michael Haire (Icons, Scoring)
+
+
+GRAPHIC ARTISTS
+Jerome Atherholt (Portraits, Terrain)
+Michael Bazzell (3D Units, Prototyping)
+Gregory Foertsch (Payoffs, Movies)
+David Inscore (Interface, Movies)
+Nicholas Rusko-Berger (Movies, Opening)
+
+
+MOVIES AND VOICES DIRECTED BY
+Michael Ely
+
+
+FEATURING THE VOICES OF
+Carolyn Dahl (as Lady Deirdre Skye)
+Lu Yu (as Chairman Sheng-ji Yang)
+Yuri Nesteroff (as Academician Prokhor Zakharov)
+Regi Davis (as CEO Nwabudike Morgan)
+Wanda Nino (as Colonel Corazon Santiago)
+Gretchen Weigel (as Sister Miriam Godwinson)
+Hesh Gordon (as Commissioner Pravin Lal)
+Alena Kanka (as Planet)
+Robert Levy (Datalinks, Male)
+Katherine Ferguson (Datalinks, Female)
+
+
+BACKGROUND MUSIC
+David Evans
+Jeffery L. Briggs
+
+
+MOVIE MUSIC
+Jeffery L. Briggs
+
+
+DIRECTOR OF MARKETING
+Lindsay Riehl
+
+
+MASTER OF MISCELLANEOUS
+Susan Meier
+
+
+WEBMASTER
+Michael Ely
+
+
+ASTRONOMY, PHYSICS, AND BIOLOGY RESEARCH
+Derek Cotter
+
+
+INTERN COORDINATOR
+Deborah Briggs
+
+
+INTERNS
+Alex Luskin (Sound Engineering)
+Kurt Kotula (Graphic Art)
+Matt Pierce (Marketing)
+
+
+STOCK FOOTAGE COURTESY OF
+Archive Films
+Corbis
+The Image Bank
+WPA Film Library
+
+
+"THE DANCING BABY"
+is used with the permission
+of Kinetix, a division of
+Autodesk, inc.
+
+
+WITH SPECIAL THANKS TO
+Jill, Ro, and Caleb Reynolds
+
+
+PUBLISHED BY
+Electronic Arts
+
+
+EA GODFATHER
+Bing Gordon
+
+
+EA EXECUTIVE PRODUCER
+Andy Hollis
+
+
+EA PRODUCER
+Bryan Walker
+
+
+VP MARKETING
+Alex Carloss
+
+
+DIRECTOR OF MARKETING
+Chris Plummer
+
+
+PRODUCT MANAGER
+Matt Orlich
+
+
+EUROPEAN PRODUCT MANAGER
+Audrey Meehan
+
+
+MEDIA RELATIONS MANAGER
+David Swofford
+
+
+QUALITY ASSURANCE DIRECTOR
+Jeff Morris, FIRAXIS Games
+
+
+ABSOLUTE QUALITY, INC.
+Dan Schlueter, AQ Lead Tester
+Graham Boyanich
+Charles Brubaker
+Ray Lofton
+Ted Paulsen
+Jim Smith
+
+
+ORIGIN SYSTEMS, INC.
+Paul "Paladin" Vaden, OSI QA Supervisor
+Rhea "Shalom" Shelley, OSI Project Leader
+Todd "Balls" Raffray, OSI Assistant Project Leader
+Tim "Quasimodo" Bell
+Brett "Beaker" Bonner
+Stacy "Skyline" Davidson
+Zafer "Z-man" Hamza
+Kent "Hand" Raffray
+Jon "Punchy" Shelus
+Stephen "Money Shot" VanWambeck
+Russ "Stranger" Wilkins
+
+
+AND
+Kyle "Paddleboat" Drewke
+Brian "BIG tiny" DuBose
+Mackey "Rastuss" Fair
+Kenny "Hottman" Hott
+Matt "O.G. Mudbone" Lynch
+Grant "Rogue" McDaniel
+Brandon "Arashi" Salinas
+Jon "Stormer" Savinelli
+Lance "MudPuppy" Stites
+
+
+BUT NOT
+Chris "Binky" Launius
+
+
+BETA TESTERS
+Marty Bishop
+Michael Buccheri
+Ted Dennison
+Chris Fitzgerald
+Neil Fradkin
+Andrew Goldstein
+Ronald Gretz
+Dick Knisely
+Greg Lary
+Martin Leuschen
+Jen MacLean
+Biju Mathai
+Sam May
+Jean McGuire
+Laralyn McWilliams
+Vernon Michael
+Mark Norton
+George Politis
+Alan Precourt
+Marc Reissig
+Don Rinker
+Jennifer Schlickbernd
+Dan Speicher
+William Stapel
+Thomas Stobie
+Jeff Vitous
+Rita Waller
+
+
+ELECTRONIC ARTS, INC.
+Benjamin Crick
+Etienne Grunenwald
+Daniel Hiatt
+Bobby Joe
+Michael Jung
+Anatol Somerville
+
+
+DOCUMENTATION BY
+Incan Monkey God Studios, Inc.
+
+
+MANUAL WRITER
+Chris McCubbin
+
+
+MANUAL EDITOR
+David Ladyman
+
+
+FRENCH TRANSLATION MANAGER
+Jean-Luc Chabrier
+
+
+FRENCH TRANSLATORS
+Jean-Claude Ducerf (www.ducerftranslations.com)
+Nathalie Marlier (www.apex.fr)
+Elizath Joffrain
+Patrice Madesclaire
+
+
+FRENCH AUDIO
+Knockin' Boots Productions Paris/France
+
+
+GERMAN TRANSLATION MANAGER
+Christina Vollmer
+
+
+GERMAN TRANSLATORS
+Frank Dietz
+Christoph Niedermair
+Susanne vanEyl
+
+
+GERMAN AUDIO
+M&S Sound, Frankfurt/Germany
+
+
+SPANISH PRODUCT MANAGER
+Teo Alcorta
+
+
+SPANISH LOCALIZATION MANAGER
+Julio Valladares
+
+
+SPANISH LOCALIZATION
+José Luis Rovira
+Luis Pinés
+Ricardo Martínez
+
+
+SPANISH QUALITY ASSURANCE
+Alvaro Corral
+Antonio López
+Oscar Jiménez
+
+
+ITALIAN TRANSLATION
+C.T.O. S.p.a., Bologna/Italy
+
+
+EUROPEAN AUDIO MANAGER
+David Lapp
+
+
+MPEG Real-Time Libraries
+(c) 1996-1998 by MpegTV. All rights reserved.
+
+
+Dedicated to the men and women of NASA,
+and all the world's space programs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eternity lies ahead of us, and behind.
+Have you drunk your fill?
+
+Lady Deirdre Skye,
+"Conversations with Planet",
+Epilogue
+
+
+
+#; This line must remain at end of file
+

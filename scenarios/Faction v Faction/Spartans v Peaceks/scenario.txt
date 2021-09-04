@@ -1,0 +1,93 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for Spartans vs. Peacekeepers scenario.
+;
+
+#INTRO
+#xs 320
+#caption By Hook or by Crook...
+^^
+M.Y. $DATE4: The Spartans have spent the years since Planetfall 
+building advanced weapon systems instead of tending to their 
+infrastructure. By contrast, the Peacekeepers have spent their 
+resources on several grand Secret Projects, neglecting their 
+frontier's defense. The Spartan High Command now realizes that 
+unless its military might is immediately utilized, the 
+Peacekeepers will establish an unsurpassable lead. 
+^
+$TITLE1 $NAME2 of the $FACTION3, you must control more Secret Projects 
+than your opponent by M.Y. $NUM3. If either faction at any time controls 
+seven Projects, that faction is considered to have a commanding lead 
+and automatically wins control of Planet!  
+^^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption By hook or by crook...
+^^
+The faction controlling the most Secret Projects in M.Y. $NUM3 achieves victory!
+Control any seven projects for an instant win.
+^
+Secret Projects needed for automatic win: $NUM1
+^
+Secret Projects you currently control: $NUM2
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS
+
+$TITLE0 $NAME1 of the $FACTION2: You control $NUM2 Secret Projects--more than your
+rival and sufficient to ensure your supreme control of Planet!
+^
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2: Your rivals control more Projects than you, ensuring
+your subjugation at their hands. You have LOST the struggle for control of Planet.  
+^
+
+#SUDDENDEATH
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2: Your rivals now control $NUM1 Secret Projects, ensuring
+your subjugation at their hands. You have LOST the struggle for control of Planet.
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS
+^
+$TITLE0 $NAME1 of the $FACTION2: You control $NUM1 Secret Projects--more than your
+rival and sufficient to ensure your supreme control on Planet!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file

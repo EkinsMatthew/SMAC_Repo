@@ -1,0 +1,130 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; BUILD custom scenario file
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; This file can be copied into the same directory as a scenario
+; file and customized for that scenario.
+;
+; Note that all of the strings and numbers in #INTRO and #OBJECTIVES
+; can be used in either. #INTRO is shown at the beginning of the
+; scenario; #OBJECTIVES is shown when "review objectives" is picked
+; from the menu.
+;
+
+#INTRO
+#xs 320
+#caption Build a Network Node
+^^
+$TITLE1 $NAME2 of the $FACTION3: Your faction has prospered, and now 
+controls two bases. Sparta Command, your Headquarters, has nearly 
+completed a {Former} unit, which may be used to build terrain improvements.  
+Meanwhile, scouting parties to the north report the existence of a 
+mysterious {alien artifact} guarded by lurking Mind Worms. 
+^
+Your objectives:
+^1. Once completed, use the Former unit to build three terrain 
+   improvements. One option: press {"Shift-A"} to automate the Former, and it 
+   immediately begins building terrain improvements.
+^
+2. After your Former is complete, {build a Network Node} at Sparta Command. Press the 
+'=' key if you need instructions on how to build the Network Node during the game.
+^
+3. Move your troops to the north. {Defeat} any Mind Worms, {capture} the alien 
+   artifact, and {bring it back} to Sparta Command.
+^
+If you need to review your objectives in the game, press the '=' key or select "Review Scenario 
+Objectives" from the HQ menu.
+^
+
+#OBJECTIVES
+#xs 440
+#caption Build a Network Node
+^^
+Your objectives:
+1. Once completed, use the Former unit to build three terrain 
+   improvements. One option: press {"Shift-A"} to automate the Former, and it 
+   immediately begins building terrain improvements.
+^
+2. After your Former is complete, build a Network Node at Sparta Command. To
+   accomplish this, first {click on the base} to open the Base Control Readout after
+   the Former is complete. Next, {click the 'change' button} in the lower left portion of
+   your screen.  Finally, {select "Network Node"} from the Build Orders list and click "OK".
+   Sparta Command instantly responds to your orders and begins to build a Net Node. 
+^
+3. Move your troops to the north. {Defeat} any Mind Worms, {capture} the alien artifact, and 
+   {bring it back} to Sparta Command.
+^^
+^^Total tasks to complete: $NUM1
+^^
+^^Tasks completed so far: $NUM2
+^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+You have completed the Network Node, captured the alien artifact, and returned it 
+to base! You are ready for the next challenge--please load the scenario entitled 
+"Conquer.sc" from the "3Conquer" scenario folder to continue...
+^
+
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $NUM0
+^^
+
+#; This line must remain at end of file

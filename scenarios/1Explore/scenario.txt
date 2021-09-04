@@ -1,0 +1,111 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; EXPLORE custom scenario file
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+
+#INTRO
+#xs 320
+#caption Explore & Expand
+^^
+$TITLE1 $NAME2 of the $FACTION3: It's a few years after Planetfall,
+and your one base is under constant attacks from Mind Worms.
+Your faction must clear out the worms and expand to a second base
+if you are to survive.
+^
+Your objectives:
+^1. Explore the surrounding area and exterminate the Mind Worms lurking
+    around your base. Move your Unity Rover and attack the worms.
+^
+2. Sparta Command, your Headquarters, has almost completed a colony pod.
+   When it is complete, move the pod to a clear area a few spaces away
+   and press the 'b' key to found a new base.
+^
+If you need to review your objectives in the game, press the '=' key or select "Review
+Scenario Objectives" from the HQ menu.
+^
+
+#OBJECTIVES
+#xs 440
+#caption Explore & Expand
+^
+1. Find and exterminate all three of the Mind Worms lurking nearby.
+^
+2. Use a colony pod to build a base.
+^
+Objectives needed for victory: $NUM0
+^
+Objectives needed for sudden death victory: $NUM1
+^
+Objectives achieved so far: $NUM2
+^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^
+^^$TITLE0 $NAME1 of the $FACTION2
+^
+You have successfully founded your second base and cleared the
+area of Mind Worms! Please load the scenario entitled "Build.sc"
+from the "2Build" scenario folder to continue...
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $NUM0
+^^
+
+
+#; This line must remain at end of file

@@ -1,0 +1,95 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for MP--4 PlayerB scenario.
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+
+#INTRO
+#xs 320
+#caption The Great Land Rush of 2150!
+^^
+$TITLE1 $NAME2 of the $FACTION3: Planet turned out to be a good deal 
+smaller and less hospitable than you had hoped. You now share a small
+central continent with the three other faction leaders who survived 
+Planetfall.
+^
+Your faction must stake its claim to the future, and so your objective 
+is simple: control as many bases as possible in 30 years.
+^ 
+^
+^
+
+#OBJECTIVES
+#xs 440
+#caption The Great Land Rush of 2150!
+^
+^^Your goal: control as many bases as possible before M.Y 2180.
+^
+^
+^^Bases you currently control: $NUM2
+^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS, $TITLE0 $NAME1 of the $FACTION2! The early era of 
+expansion has come to an end, and your faction holds the greatest number 
+of bases. Your success ensures the dominance of the $FACTION2 
+over the coming years.
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+The early era of expansion has come to an end, and $TITLE0 $NAME1 
+of the $FACTION2 has successfully held the greatest number of bases.
+$TITLE0 $NAME1's success ensures the dominance of the $FACTION2 
+over the coming years. Sadly, your faction has been relegated to second-
+class status.
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^
+^^$TITLE0 $NAME1 of the $FACTION2
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file

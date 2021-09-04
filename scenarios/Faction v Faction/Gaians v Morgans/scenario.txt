@@ -1,0 +1,96 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for Gaians vs. Morgans scenario.
+;
+
+#INTRO
+#xs 320
+#caption GAIA'S REVENGE
+^^
+It is now M.Y. $DATE4, and Planet is poised on the brink of a final 
+Armageddon. The Morgans control the west, wantonly befouling their 
+continent with vast tracts of Thermal Boreholes in the center of 
+their empire. The Gaians control the east, and have been slowly
+building an armada of native units bent on restoring ecological
+harmony to their world. 
+^
+The Gaians intend to take over the most polluted Morgan bases, while 
+the Morgans seek to retain these jewels of their industrial crown 
+and put an end to the wasteful struggle by conquering the Gaian capital.
+Victory will go to the leader who controls all six objective bases--five 
+Morgan bases plus the Gaian capital.
+^
+
+#OBJECTIVES
+#xs 440
+#caption GAIA'S REVENGE
+^^
+Control the six objective bases to achieve victory--five
+Morgan polluters and the Gaian captial.
+^^
+Current objective bases you control: $NUM2
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption No decisive victory...
+^^
+M.Y. $YEAR0: After years of bitter fighting, no side can 
+claim a decisive victory. The struggle for Planet continues 
+into the future...
+^
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption DEFEAT!
+^^
+Your empire lies in ruins. $TITLE0 $NAME1 now controls the six objective bases, 
+assuring the $FACTION2 control of Planet.
+^
+
+#SUDDENDEATH0
+#xs 440
+#caption VICTORY!
+^^
+^
+CONGRATULATIONS, $TITLE0 $NAME1 of the $FACTION2--you control the 
+six objective bases! The future of Planet shall now be shaped according 
+to your whim!
+^
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file
+
